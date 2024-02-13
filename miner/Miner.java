@@ -15,7 +15,7 @@ public class Miner {
             block.generateHash();
         }
 
-        System.out.println(block + " acabou de minerar...");
+        System.out.println(block + " acabou de minerar");
         System.out.println("Hash: " + block.getHash());
 
         blockchain.addBlock(block);
